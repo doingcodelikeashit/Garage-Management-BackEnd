@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+const User = require("../Model/user.model");
 
 const auth = (roles = []) => {
   if (typeof roles === "string") roles = [roles];
